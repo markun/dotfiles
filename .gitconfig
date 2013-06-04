@@ -1,0 +1,11 @@
+[user]
+	name = Marcoen Hirschberg
+	email = marcoen@gmail.com
+[color]
+	ui = true
+[format]
+	pretty = medium
+[core]
+	pager = less -+F -+X -c
+[pager]
+	status = true
