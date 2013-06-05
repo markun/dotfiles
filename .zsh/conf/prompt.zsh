@@ -1,8 +1,8 @@
 autoload -Uz vcs_info
 zstyle ':vcs_info:*' enable git svn
-precmd() {
-    vcs_info
-}
+show_vcs_info() { vcs_info }
+autoload -Uz add-zsh-hook
+add-zsh-hook precmd show_vcs_info
 
 autoload -U colors
 colors
