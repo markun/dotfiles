@@ -8,4 +8,4 @@ autoload -U colors
 colors
 setopt prompt_subst
 zstyle ':vcs_info:git*' formats " [%{$fg[green]%}%b%{$reset_color%}]"
-export PROMPT='%{$fg[blue]%}%m%{$reset_color%} %{$fg[yellow]%}%~%{$reset_color%}${vcs_info_msg_0_} '
+export PROMPT='%{$fg[blue]%}%m%{$reset_color%}%{$fg_bold[yellow]%}%#%{$reset_color%} %{$fg[yellow]%}%~%{$reset_color%}${vcs_info_msg_0_} '
