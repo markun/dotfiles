@@ -1,4 +1,4 @@
-find -type f -print0 $@ | xargs -0 /usr/bin/du -h |
+find $@ -type f -print0 | xargs -0 /usr/bin/du -h |
    awk '{idx = sprintf("%s %08.2f %s", 
          index("KMG", substr($1, length($1))),
          substr($1, 0, length($1)-1), $0);
