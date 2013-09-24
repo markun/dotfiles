@@ -6,7 +6,7 @@
 [format]
 	pretty = medium
 [core]
-	pager = less -+F -+X -c
+	pager = less -+F -+X -c -i
 [pager]
 	status = true
 [push]
