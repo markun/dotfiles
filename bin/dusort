@@ -1,5 +1,5 @@
 /usr/bin/du -x -h $@ |
-   awk '{idx = sprintf("%s %08.2f %s", 
+   gawk '{idx = sprintf("%s %08.2f %s",
          index("KMG", substr($1, length($1))),
          substr($1, 0, length($1)-1), $0);
          lines[idx] = $0}
