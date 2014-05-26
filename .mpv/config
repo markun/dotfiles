@@ -1,0 +1,23 @@
+input-default-bindings=no
+quiet=yes
+fullscreen=yes
+
+ao=alsa
+softvol-max=1000
+ad=lavc:mp3float
+af=scaletempo
+
+vo=vaapi
+hwdec=vaapi
+brightness=10
+saturation=26
+
+osd-duration=2500
+osd-color='#FFFF00'
+osd-bar-align-y=0
+osd-status-msg='${percent-pos}% ${time-pos} (-${playtime-remaining})'
+
+sub-visibility=no
+sub-text-color='#FFFF00'
+
+load-unsafe-playlists=yes
