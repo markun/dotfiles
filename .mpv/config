@@ -2,10 +2,10 @@ input-default-bindings=no
 quiet=yes
 fullscreen=yes
 
-ao=alsa
+ao=pulse,alsa
 softvol-max=1000
 ad=lavc:mp3float
-af=scaletempo
+af=scaletempo,volume=replaygain-album:detach
 
 vo=vaapi
 hwdec=vaapi
